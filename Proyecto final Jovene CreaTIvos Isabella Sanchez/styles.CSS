@@ -1,0 +1,158 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: cursive;
+ }
+
+body{
+    background-color:rgb(221, 200, 241);
+}
+
+.oscuro{ 
+    background-color: #000000; 
+    color: #000000; 
+}
+
+.main-content{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    box-shadow: 21px 21px 30px rgb(224, 147, 255);
+}
+
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color: rgb(226, 226, 226);
+
+}
+
+
+.left-content{
+    padding: 2rem 3rem;
+    inline-size: auto;
+}
+.profile{
+    width: 100%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.image{
+    width: 100%;
+    text-align: center;
+}
+.profile img{
+    width: 100%;
+    border-radius: 70%;
+    border: 8px solid black;
+
+}
+
+.name{
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.2rem 0;
+}
+
+.perfil{
+    font-size: 11px;
+    color: black(0, 0, 0, 0.253);
+    letter-spacing: 1px;
+    
+}
+
+.especialidades{
+    font-size: 11px;
+    color: rgb(0, 0, 0) ;
+    letter-spacing: 3px;
+    }
+
+.career{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+
+.contact-info{
+    font-size: 10px;
+    color: rgb(105, 8, 196);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.habilidades_bar{
+    position: relative;
+    background-color: rgba(88, 0, 62, 0.986);
+    border-radius: 100px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.habilidades_bar span{
+    position: absolute;
+    height: 20px;
+    background-color  :rgb(238, 188, 240);
+}
+
+.habilidades_titlle{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.habilidades_left{
+    font-size: 11px;
+    color: rgb(172, 58, 187);
+    letter-spacing: 1px;
+}
+
+.right-section{
+    grid-column: span 5;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+.right-content{
+    padding: 2rem 3rem;
+    inline-size: auto;
+}
+
+.right-tittle{
+    font-size: 19px;
+    color: rgb(189, 52, 202);
+    letter-spacing: 1px;
+}
+
+.para{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+}
+
+.right-title2{
+    font-size: 19px;
+    color: rgb(159, 52, 202);
+    letter-spacing: 1px;
+}
+
+.para2{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+}
+
+.resolución{
+    width: 100%;
+}
